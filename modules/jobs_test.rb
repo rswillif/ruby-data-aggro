@@ -43,10 +43,6 @@ module JobsTest
   end
 
   def assert_tests_success
-    puts("test_job_initialize: #{test_job_initialize}")
-    puts("test_job_location: #{test_job_location}")
-    puts("test_job_experience_required: #{test_job_experience_required}")
-    puts("test_job_languages_required: #{test_job_languages_required}")
     return test_job_initialize && test_job_location &&
            test_job_experience_required && test_job_languages_required
   end

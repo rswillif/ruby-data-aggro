@@ -48,7 +48,6 @@ module ProcessData
                     description: job_hash['description'])
       job_languages = job.languages_required
       job_experience = job.experience_required.to_sym
-      puts("#{job_experience}")
 
       # iterate through job_hash and determine if the location
       # is one of the locations of interest
@@ -57,8 +56,6 @@ module ProcessData
         # if location is a city of interest
         job_languages.each do |key, value|
           if value == true
-            puts("key: #{key} value: #{value}")
-            puts("#{location_distributions[job.location][key]}")
             # checking if experience level was found
             if location_distributions[job.location][key][job_experience]
               location_distributions[job.location][key][job_experience] += 1
