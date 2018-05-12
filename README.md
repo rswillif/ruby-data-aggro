@@ -1,19 +1,9 @@
-#Introduction
+Overview
 
 ----
-> The most difficult issues that I faced when completing this assignment was
-  having to decide what sacrifices I wanted to make in terms of number HTTP
-  requests to make to the Github Jobs API and how I wanted to organize parts of
-  my code. Due to the desired deliverables, there was no extremely efficient way
-  to parse through and transform the data in a necessary manner to get the desired
-  output. One way or another, the runtime of the entire program would be O(n^2).
-  Also, I wanted to not use any frameworks or tools outside of the Ruby stdlib
-  which brought along it's own set of challenges after being so accustomed to
-  being able to use all of the tools available within Rails. Ultimately, a series
-  of assumptions had to be made in order to make the scope manageable for the
-  assignment's time window including what languages to parse amongst others.
+> A program written to practice implementing web data aggregation via ruby std lib equivalents of rails framework mechanisms.
 
-#Installation
+Installation
 
 ----
 > These instructions assume you are operating a Mac/Linux machine and have
@@ -37,7 +27,7 @@
 
  ``rbenv global 2.4.2``
 
-#Run the program
+Run the program
 
 ----
 > Once the installation process is complete, cd into the directory the server.rb
